@@ -1,0 +1,32 @@
+.post {
+  max-width: 500px;
+  background-color:white;
+  border: solid 1px lightgrey;
+  margin-bottom: 45px;
+}
+
+.post__image{
+  width: 100%;
+  /* 
+    object-fit =>
+    để chỉnh ảnh fit contain 
+    response 
+  */
+  object-fit:contain;
+  border-top: solid 1px lightgrey;
+  border-bottom: solid 1px lightgrey;
+
+}
+
+.post__text {
+  font-weight: normal;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+}
+
+.post__avatar {
+  margin-right: 10px;
+}
